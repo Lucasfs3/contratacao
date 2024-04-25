@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+    background: url('https://img.freepik.com/fotos-gratis/comunidade-de-estilo-de-vida-rajasthani-na-india_53876-71225.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712620800&semt=ais');
+    background-repeat: no-repeat;    
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    display: flex; 
+}
+
+#urso {
+    width: 50%;
+}
+
+#questionario {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    border: 3px solid rgb(0, 195, 255);
+    box-shadow: 0px 0px 15px 10px rgb(0, 195, 255);
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 15px;
+
+    width: 500px;
+    height: 500px;
+}
+
+#questionario h1 {
+    color: rgb(255, 136, 0);
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+
+#questionario button {
+    border: 1px solid rgb(0, 195, 255);
+    background-color: transparent;
+    color: rgb(255, 136, 0);
+    padding: 15px;
+    width: 150px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#questionario button:hover {
+    box-shadow: 0px 0px 15px 10px rgb(0, 195, 255);
+
+}
+
+
+
+
+
+
+.resultado {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid rgb(0, 195, 255);
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 10px rgb(0, 195, 255);
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.resultado h1 {
+    color: rgb(255, 136, 0);
+    text-decoration: underline rgb(0, 195, 255);
+}
+
+.resultado ul {
+    margin-top: 60px;
+}
+
+.resultado li {
+    color: rgb(0, 195, 255);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.resultado strong {
+    color: rgb(255, 136, 0);
+}
+
+#vermelho {
+    color: red;
+}
+
+#verde {
+    color: green;
+}

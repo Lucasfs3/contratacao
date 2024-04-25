@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contratação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="container">
+        <img id="urso" src="https://pbs.twimg.com/media/Ea__31zWsAAwjDT.png" alt="">
+        <div id="questionario">
+            <h1>Você vai contratar o Luquinhas ?</h1>
+
+            <button onclick="mostrarResultado()">Sim!</button>
+            <button id="nao" onmouseenter="move()" onmouseenter="moveDois()">Não!</button>
+        </div>
+
+        <div class="resultado">
+            <h1>ATRIBUTOS MELHORADOS</h1>
+            <ul>
+                <li><strong>Salario <span id="verde">+100%</span> </strong></li>
+                <li><strong>Gratidão ao patrão <span id="verde">+80%</span></strong></li>
+                <li><strong>Vontade de traficar anões <span id="vermelho">-36%</span></strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
